@@ -1,0 +1,17 @@
+﻿<meta name="referrer" content="no-referrer" />
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script type='text/javascript'>
+      function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+        vars[key] = value;
+      });
+          return vars;
+      }
+      var link = getUrlVars()["sv"];
+    </script>
+<video controls='true' height="100%" poster="" id='player' width="100%"></video>
+<script>
+      var video = document.getElementById('player');
+      video.src = sv;
+    </script>
